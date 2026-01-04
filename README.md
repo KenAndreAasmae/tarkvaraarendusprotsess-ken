@@ -1,2 +1,0 @@
-# tarkvaraarendusprotsess-ken
-

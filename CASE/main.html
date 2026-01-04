@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Case-vahendid</h1>
+    <p> 
+            CASE-vahendid (Computer-Aided Software Engineering) on tarkvaraarendust toetavad tööriistad,<br/>
+        mis aitavad planeerida, analüüsida, modelleerida, kujundada, arendada, testida ja hallata süsteeme<br/>
+        ning nendega seotud dokumentatsiooni.Nende põhiidee on muuta arendusprotsess vähem käsitööks<br/>
+        ja rohkem juhitavaks: vähendada vigu, hoida nõuded ja mudelid üheselt mõistetavad, kiirendada korduvate tegevuste tegemist<br/>
+        ning tagada, et kogu tiim töötab sama “tõeallika” järgi.
+    </p><br/><br/>
+    <p> 
+            Praktikas kasutatakse CASE-vahendeid selleks, et hoida arendus ühtse protsessina koos: nõuete kirjeldused seotakse mudelitega,<br/>
+        mudelid seotakse disaini ja komponentidega, muudatused saavad jälgitavaks ning kvaliteedikontroll (nt testimine ja ülevaatused)<br/>
+        muutub süsteemsemaks. Paljud CASE-vahendid võimaldavad ka standardseid diagramme ja kirjeldusviise (näiteks UML), automatiseeritud dokumentatsiooni genereerimist,<br/>
+        reeglipõhiseid kontrollimisi (kas mudel on loogiliselt korrektne) ning koostööd (kommenteerimine, versioonide haldus, muudatuste ajalugu).
+    </p><br/><br/>
+        <h2>Kuidas jagunevad Case-vahendid?</h2>
+    <p> 
+            CASE-vahendeid jaotatakse tihti selle järgi, millist arendusetappi nad kõige rohkem toetavad. Upper CASE keskendub varasematele etappidele: ärivajaduste ja nõuete kogumine,<br/> 
+        analüüs, protsesside kirjeldamine, süsteemi kõrgtaseme arhitektuur ning kontseptuaalne modelleerimine. Lower CASE toetab hilisemaid etappe: detailne disain,<br/>
+        koodi ja komponentide realiseerimine, testimine, ehitamine ja hooldus.
+    </p><br/><br/>
+        <h2>Kuidas kasutatakse Case-vahendeid arendustsüklis?</h2>
+    <p>
+           Prototüüpimise arendusmudeli elutsüklis on CASE-vahendite roll eriti oluline, sest töö käib iteratiivselt: tehakse kiire versioon (prototüüp), testitakse kasutajatega, kogutakse tagasiside ja täpsustatakse nõudeid,<br/>
+        kuni lahendus muutub piisavalt selgeks ja küpseks. See tähendab, et tööriistad peavad toetama kiiret modelleerimist ja muutmist, selget tagasisideahelat ning head jälgitavust (miks midagi muudeti ja mida see mõjutab).<br/> 
+        Prototüüpimise alguses kasutatakse sageli nõuete ja ideede “kinni püüdmise” vahendeid, et panna kirja kasutajate vajadused ja esmane funktsionaalsus. Siin sobivad näiteks nõuete ja tööde halduse tööriistad nagu Jira<br/>
+        ning dokumenteerimiseks/koostööks Google Docs. Kui on vaja selgitada kasutusvooge ja süsteemi käitumist, tulevad mängu modelleerimisvahendid nagu draw.io, Lucidchart või põhjalikumalt UML-i toetavad tööriistad nagu Visual Paradigm.<br/><br/> 
+        
+        Järgmises etapis, kus prototüüpi hakatakse kavandama, kasutatakse UI/UX prototüüpimise vahendeid. Levinud näited on Figma või Adobe XD (eriti kiirete “wireframe” jaoks).<br/>
+        Need võimaldavad luua klikitavaid prototüüpe, mille abil saab kasutajaga kiiresti kontrollida, kas loogika ja kasutusmugavus toimivad, ilma et peaks kohe “päris” süsteemi valmis kodeerima.<br/><br/>
+
+        Kui prototüüp liigub juba töötava funktsionaalsuse suunas (nt MVP või tehniline prototüüp), lähevad käiku arendus- ja kvaliteedivahendid. Koodi kirjutamiseks ja arhitektuuri hoidmiseks kasutatakse<br/>
+        arenduskeskkondi nagu Visual Studio Code või IntelliJ IDEA. Versioonihalduseks ja koostööks sobivad Git + GitHub/GitLab. Ehitus- ja automaattestide poolel aitavad prototüüpi kiiresti kontrollida CI/CD tööriistad nagu GitHub Actions või<br/>
+        GitLab CI, ning testimiseks näiteks Postman (API prototüüpide katsetamiseks) või UI-taseme automatiseerimiseks Cypress või Selenium.<br/>
+        Neist ise olen kokku puutunud: Jira, Google Docs, Github ning Visual Studio Code. Kõik nimetatud vahendid on väga head Case-vahendid oma eesmärgi täitmiseks ning teevad töö palju selgemaks.<br/>
+    </p><br/>
+    <p>
+        Kokkuvõttes on CASE-vahendid mõeldud selleks, et tarkvaraarendus oleks paremini planeeritud, mõõdetav ja kvaliteetsem: need aitavad vähendada arendusaja raiskamist, parandada meeskonnatööd,<br/>
+        hoida dokumentatsiooni ajakohasena ning tagada, et toode vastaks nõuetele ka siis, kui projekt kasvab või muutub.
+    </p><br/><br/>
+
+
+</body>
+</html>
